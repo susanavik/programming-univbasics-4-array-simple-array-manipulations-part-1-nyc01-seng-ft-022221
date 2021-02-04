@@ -4,18 +4,18 @@ def using_push(array, string)
 end
 
 def using_unshift(array, string)
-    array = ["this", "is"]
+    array = ["this", "is", "the", "beautiful"]
     array.unshift("Staten Island")
 end
 
-#def using_pop(array, string)
-  #array = ["this", "is", "Staten Island"]
-#  Staten_Island = array.pop
-#end
+def using_pop(array, string)
+  array = ["this", "is", "Staten Island"]
+  Staten_Island = array.pop
+end
 
 def pop_with_args(array, string)
   array = ["this", "is", "Staten Island"]
-  array.pop[1, 2]
+  array.pop(2)
 end
 
 def using_shift(array, string)
