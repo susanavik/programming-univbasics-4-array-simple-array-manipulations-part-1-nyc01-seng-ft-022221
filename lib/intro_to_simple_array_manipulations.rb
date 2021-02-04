@@ -25,5 +25,5 @@ end
 
 def shift_with_args(array)
   array = ["this", "is", "Staten Island"]
-  arr.shift(2)
+  array.shift(2)
 end
