@@ -24,6 +24,6 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  array = ["this", "is", "Staten Island"]
+  brands_removed = ["Blue Bell Creameries", "Ben & Jerry's", "Hagen Daz"]
   array.shift(2)
 end
