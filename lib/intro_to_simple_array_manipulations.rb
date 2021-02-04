@@ -1,6 +1,6 @@
 def using_push(array, string)
-  array = ["this", "is", "a"]
-  array.push("string")
+  array = ["this", "is"]
+  array.push("amazing")
 end
 
 def using_unshift(array, string)
