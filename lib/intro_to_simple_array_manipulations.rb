@@ -9,20 +9,18 @@ def using_unshift(array, string)
 end
 
 def using_pop(array, string)
-  array = ["this", "is", "violet"]
-  arr.pop
+  colors = ["this", "is", "violet"]
+  colors.pop
 end
 
 def pop_with_args(array, string)
-  array = ["this", "is", "Staten Island"]
-  arr.pop(1)
-  arr.pop(2)
+  city = ["this", "is", "Staten Island"]
+  city.pop[1]
 end
 
 def using_shift(array, string)
-  array = ["this", "is", "Staten Island"]
-  arr.shift
-
+  city = ["this", "is", "Staten Island"]
+  city.shift
 end
 
 def shift_with_args(array, string)
