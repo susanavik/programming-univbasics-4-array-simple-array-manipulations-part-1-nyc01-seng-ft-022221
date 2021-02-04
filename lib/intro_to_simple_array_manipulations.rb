@@ -9,13 +9,13 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  colors = ["this", "is", "violet"]
-  colors.pop
+  continents = ["Europe", "North America", "South America", "Asia", "Oceania", Africa", "Antarctica"]
+  continents.pop
 end
 
 def pop_with_args(index_number)
-  city = ["this", "is", "Staten Island"]
-  city.pop[1]
+  small_dogs = ["Maltese", "Havanese" "Chihuahua", "Shiba Inu"]
+  small_dogs[1]
 end
 
 def using_shift(array)
