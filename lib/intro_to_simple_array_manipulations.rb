@@ -15,12 +15,12 @@ end
 
 def pop_with_args(index_number)
   small_dogs = ["Maltese", "Havanese" "Chihuahua", "Shiba Inu"]
-  small_dogs[1]
+  small_dogs.pop[2]
 end
 
 def using_shift(array)
-  city = ["this", "is", "Staten Island"]
-  city.shift
+  im_so_over_this_city = ["Lagos", "NYC", "Paris", "London", "Madrid", "Los Angeles", "Staten Island", "Chicago"]
+  im_so_over_this_city.shift
 end
 
 def shift_with_args(array)
