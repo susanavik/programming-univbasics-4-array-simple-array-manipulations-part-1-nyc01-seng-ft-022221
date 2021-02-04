@@ -9,8 +9,8 @@ def using_unshift(array, string)
 end
 
 def using_pop(array, string)
-  array = ["this", "is", "Staten Island"]
-  Staten_Island = array.pop
+  array = ["this", "is", "violet"]
+  violet = array.pop
 end
 
 def pop_with_args(array, string)
