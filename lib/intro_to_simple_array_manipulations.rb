@@ -8,17 +8,17 @@ def using_unshift(array, string)
     array.unshift("Staten Island")
 end
 
-def using_pop(array, string)
+def using_pop(array)
   colors = ["this", "is", "violet"]
   colors.pop
 end
 
-def pop_with_args(array, string)
+def pop_with_args(index_number)
   city = ["this", "is", "Staten Island"]
   city.pop[1]
 end
 
-def using_shift(array, string)
+def using_shift(array)
   city = ["this", "is", "Staten Island"]
   city.shift
 end
