@@ -23,7 +23,7 @@ def using_shift(array)
   city.shift
 end
 
-def shift_with_args(array, string)
+def shift_with_args(array)
   array = ["this", "is", "Staten Island"]
   arr.shift(2)
 end
