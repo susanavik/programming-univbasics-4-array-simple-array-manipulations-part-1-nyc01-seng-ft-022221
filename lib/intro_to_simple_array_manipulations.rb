@@ -24,6 +24,6 @@ def using_shift(array, string)
 end
 
 def shift_with_args(array, string)
-  array = ["this", "is", "a"]
+  array = ["this", "is", "Staten Island"]
   array.shift[1, 2]
 end
