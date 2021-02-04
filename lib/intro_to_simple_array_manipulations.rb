@@ -15,7 +15,8 @@ end
 
 def pop_with_args(array, string)
   array = ["this", "is", "Staten Island"]
-  arr.pop(1, 2)
+  arr.pop(1)
+  arr.pop(2)
 end
 
 def using_shift(array, string)
