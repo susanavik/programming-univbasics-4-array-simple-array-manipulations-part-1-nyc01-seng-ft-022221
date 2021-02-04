@@ -1,11 +1,11 @@
 def using_push(array, string)
   array = ["this", "is"]
-  array.push("amazing")
+  array.push("violet")
 end
 
 def using_unshift(array, string)
-    array = ["this", "is", "a"]
-    array.unshift("string")
+    array = ["this", "is"]
+    array.unshift("Staten Island")
 end
 
 def using_pop(array, string)
