@@ -14,7 +14,7 @@ def using_pop(array)
 end
 
 def pop_with_args(index_number)
-  small_dogs = ["Maltese", "Havanese", "Chihuahua", "Shiba Inu"]
+  small_dogs = ["Chihuahua", "Shiba Inu"]
   small_dogs.pop[2]
 end
 
