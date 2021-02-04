@@ -9,13 +9,13 @@ def using_unshift(array, string)
 end
 
 def using_pop(array, string)
-  array = ["this", "is", "a"]
-  a = array.pop
+  array = ["this", "is", "Staten Island"]
+  Staten_Island = array.pop
 end
 
 def pop_with_args(array, string)
-  array = ["this", "is", "a"]
-  array.pop[2]
+  array = ["this", "is", "Staten Island"]
+  array.pop[1, 2]
 end
 
 def using_shift(array, string)
@@ -25,5 +25,5 @@ end
 
 def shift_with_args(array, string)
   array = ["this", "is", "a"]
-  array.shift[2]
+  array.shift[1, 2]
 end
