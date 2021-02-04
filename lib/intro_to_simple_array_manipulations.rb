@@ -19,7 +19,7 @@ def pop_with_args(index_number)
 end
 
 def using_shift(array)
-  im_so_over_this_city = ["Lagos", "NYC", "Paris", "London", "Madrid", "Los Angeles", "Staten Island", "Chicago"]
+  im_so_over_this_city = ["Lagos", "NYC", "Paris", "London", "Madrid", "Los Angeles", "Chicago"]
   im_so_over_this_city.shift
 end
 
